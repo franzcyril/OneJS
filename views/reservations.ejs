@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet/css" href="style.css"/>
+  </head>
+  <body>
+    <h1>List of Reservations</h1>
+    <p>This is a landing page.</p>
+    <ol>
+    <% reservations.forEach(function(reservation){ %>
+      <li><%= reservation.PersonId %> - <%= reservation.TotalContractPrice %></li>
+    <% }); %>
+  </ol>
+  </body>
+</html>

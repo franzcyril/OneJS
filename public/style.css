@@ -1,0 +1,9 @@
+html, body {
+  margin: 0;
+  background: skyblue;
+  color: #eee;
+}
+
+h1 {
+  font-size: 3em;
+}

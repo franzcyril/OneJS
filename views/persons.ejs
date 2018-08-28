@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>List of contacts</h1>
+    <ul>
+      <% data.forEach(function(person){ %>
+      <li><%= person.Email %></li>
+      <% }); %>
+    </ul>
+  </body>
+</html>
